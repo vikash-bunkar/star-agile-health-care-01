@@ -18,7 +18,7 @@ pipeline {
     /* stage('Create Docker Image') {
       steps {
         echo 'This stage will Create a Docker image'
-        sh 'docker build -t vikash9755 /healthcare:1.0 .'
+        sh 'docker build -t vikash9755/healthcare:1.0 .'
                           }
             }
      stage('Docker-Login') {
